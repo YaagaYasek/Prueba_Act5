@@ -15,6 +15,12 @@ public class Alumno {
         edad = e;
         sexo = s;
     }
+    @Override
+    public String toString(){
+        System.out.println("\nNombre: " + nombre);
+        System.out.println("Edad: " + edad);
+        return "Sexo: " + sexo;
+    }
 
     public void setNombre(String n){
         nombre = n;
